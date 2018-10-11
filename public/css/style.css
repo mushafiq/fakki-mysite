@@ -1,0 +1,17 @@
+.container-fluid{
+   
+    background: cover;
+    height: 50em;
+    width: 100em;
+}
+
+#profile img{
+    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+}
+body{
+    background-image:linear-gradient(rgba(107, 102, 102, 0.5), rgba(99, 96, 96, 0.5)), url("../images/background.jpg");
+    text-align: center;
+    color:#ffff;
+}
