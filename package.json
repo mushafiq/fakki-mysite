@@ -1,19 +1,27 @@
 {
-    "name": "a03",
+    "name": "mushafiq",
     "version": "0.0.1",
-    "description": "resume app",
+    "description": "Resume website",
     "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
     "dependencies": {
+        "body-parser": "latest",
+        "cool-ascii-faces": "^1.3.4",
+        "ejs": "latest",
         "express": "latest",
         "morgan": "latest",
-        "body-parser": "latest",
-        "ejs": "latest"
+        "nconf": "latest",
+        "nodemailer": "latest",
+        "mailgun-js": "latest",
+        "nodemailer-mailgun-transport": "latest"
     },
-    "author": "Denise Case",
-    "homepage": "https://bitbucket.org/professorcase/a03",
+    "author": "Mushafiq Fakki",
+    "homepage": "https://github.com/mushafiq/fakki-mysite",
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/professorcase/a03"
+        "url": "https://github.com/mushafiq/fakki-mysite"
     },
     "license": "Apache-2.0"
 }
